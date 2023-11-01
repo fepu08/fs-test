@@ -22,6 +22,6 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 0,
     'prettier/prettier': 'error',
     'jest/no-standalone-expect': 'warn',
-    'no-console': 'error',
+    'no-console': 'warn',
   },
 };

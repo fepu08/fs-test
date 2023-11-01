@@ -9,6 +9,7 @@
     "build": "etsc",
     "watch": "etsc --w",
     "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
     "lint": "etsc --noEmit && eslint \"**/*.ts\" --fix",
     "lint:check": "eslint \"**/**/*.ts\"",
     "format:check": "prettier --check */**/*.*",
@@ -42,6 +43,7 @@
     "tabWidth": 2,
     "useTabs": false,
     "printWidth": 120,
-    "trailingComma": "all"
+    "trailingComma": "all",
+    "endOfLine": "lf"
   }
 }
